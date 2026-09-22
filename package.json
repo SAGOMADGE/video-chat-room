@@ -1,0 +1,17 @@
+{
+  "name": "forasoft",
+  "version": "1.0.0",
+  "description": "Full-mesh WebRTC Video Chat App",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev -- --open",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
